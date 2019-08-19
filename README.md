@@ -50,4 +50,5 @@
    - &emsp;&emsp;zeros(),ones(),eye(),length(),size()
 #### &ensp;&emsp;使用键盘输入初始化变量
    - &emsp;&emsp;`my_val = input('Enter an input value:')`
+### [以上内容代码]()
 ## &ensp;多维数组
