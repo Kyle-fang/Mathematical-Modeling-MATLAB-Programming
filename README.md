@@ -52,3 +52,7 @@
    - &emsp;&emsp;`my_val = input('Enter an input value:')`
 ### [以上内容代码](f1.m)
 ## &ensp;多维数组
+#### &emsp;&emsp;在内存中存储多维数组MATLAB总是按列主顺序分配数组元素
+   - &emsp;&emsp;即先将第一列分配到内存中，再分配第二列.....
+#### &emsp;&emsp;用一维的方式访问多维数组
+   - &emsp;&emsp;
