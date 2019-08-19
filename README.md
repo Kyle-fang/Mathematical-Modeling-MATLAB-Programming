@@ -6,7 +6,7 @@
 ## MATLAB(MATrix LABoratory)意为矩阵实验室，其将适合迭代分析和设计过程的桌面环境与直接表达矩阵和数组运算的编程语言相结合。
 #### MATLAB操作界面
 ![](https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1566203661752&di=c4e80a42d7d60aa48f78a0812237cf00&imgtype=0&src=http%3A%2F%2Fimg2018.cnblogs.com%2Fblog%2F1729297%2F201907%2F1729297-20190719101319135-1203155136.png)
-&ensp; ### 专业开发
+&ensp;### 专业开发
    - MATLAB 工具箱经过专业开发、严格测试并拥有完善的帮助文档。
 >### 包含交互式应用程序
    - MATLAB 应用程序让您看到不同的算法如何处理您的数据。在您获得所需结果之前反复迭代，然后自动生成 MATLAB 程序，以便对您的工作进行重现或自动处理。
