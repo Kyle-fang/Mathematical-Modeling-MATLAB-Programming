@@ -39,4 +39,15 @@
 ## &ensp;变量
 #### &emsp;是指一个包含数组的内存区域由用户指定的名称来表示；无论在何时只要在恰当的MATLAB命令中引用变量名，就可以使用其代表的数组内容并进行修改。
 ## &ensp;创建和初始化变量
-   1) &emsp;&ensp;在赋值语句中初始化变量
+#### &emsp;&ensp;在赋值语句中初始化变量
+   - &emsp;&emsp;再赋值语句中给变量赋一个或多个值`var = expression`;
+   - &emsp;&emsp;变量也可以用数组初始化`array = [1,2,3,4]`;
+   - &emsp;&emsp;注：**在所有赋值语句末尾加上分号(;),以禁止命令窗口复制结果的自动显示，以加快程序的执行速度**
+#### &emsp;&ensp;使用快捷表达式初始化
+   - &emsp;&emsp;通过冒号运算符指定数组序列中的第一个值，步进增量，序列中最后一个值来定义完整数组的值:`frist:incr:last`;
+   - &emsp;&emsp;快捷表达是可以与**转置运算符(')**相结合:`f = [1:4]'`
+#### &ensp;&emsp;数组也可使用内置的MATLAB函数初始化
+   - &emsp;&emsp;zeros(),ones(),eye(),length(),size()
+#### &ensp;&emsp;使用键盘输入初始化变量
+   - &emsp;&emsp;`my_val = input('Enter an input value:')`
+## &ensp;多维数组
