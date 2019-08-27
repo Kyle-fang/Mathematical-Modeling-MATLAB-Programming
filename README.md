@@ -78,3 +78,37 @@
 
 ## 显示输出数据
 ### &emsp;更改默认格式
+## 数据文件
+### &emsp;保存数据文件
+      - `save filename var1 var2 -ascii`: var1，var2是要保存在文件中的变量；-ascii：若要与其他程序共享数据，则应指定 -ascii选项
+# MATLAB内置函数
+   - 与数学函数不同，MATLAB函数可以将多个结果返回给调用程序、
+# MATLAB二维绘图
+```
+   x = 0:1:10;
+   y = x.^2 - 10.*x + 15;
+   plot(x,y);
+```
+### &emsp;x,y绘图
+```
+      x = 0:1:10;
+      y = x.^2 - 10.*x + 15;
+      plot(x,y);
+      %标题
+      title('plot of y = x^2 - 10*x + 15')
+      %轴标签
+      xlabel('x')
+      ylabel('y')
+      grid on   %背景网格，grid关闭网格线
+```
+### &emsp;将绘图导出为图像文件
+   - `print <options> <filename>`
+#### option
+选项|描述
+|-----:|:---|
+|-deps|创建封装的PostScript格式的黑白的图像|
+|-depsc|创建封装的PostScript格式的彩色的图像|
+|-djpeg|创建JPEG格式的图像|
+|-dpng|创建PNG格式的彩色图像|
+|-dtiff|创建压缩的TIFF格式的图像|
+
