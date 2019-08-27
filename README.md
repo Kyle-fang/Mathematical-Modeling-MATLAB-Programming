@@ -103,6 +103,7 @@
 ```
 ### &emsp;将绘图导出为图像文件
    - `print <options> <filename>`
+   - `print -dpng -r300  my_iamge.png`
 #### option
 选项|描述
 |-----:|:---|
