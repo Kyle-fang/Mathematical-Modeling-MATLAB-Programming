@@ -113,3 +113,13 @@
 |-dpng|创建PNG格式的彩色图像|
 |-dtiff|创建压缩的TIFF格式的图像|
 
+# 程序设计
+
+# Simulink
+   ### Simulink的基本模块按功能分类;
+      - Continuous(连续系统模块)
+      - Discrete(离散系统模块)
+      - Function&Tables(函数和平台模块)
+      - Math Operations(数学运算模块)
+      - Nonlinear(非线性模块)
+      - Signals&Systems(信号和系统模块)
