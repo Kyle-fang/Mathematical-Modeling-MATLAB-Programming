@@ -142,3 +142,18 @@
       - Simulink软件包中的实时工作室（RTW）可以将Simulink的仿真框图直接转化为C语言代码，从而直接从系统仿真过渡到系统实现
    ### 状态流模块（Stateflow）
       - 用户可以在模块中设计基于状态变化的离散时间系统
+   ### 扩展的模块集
+      - Communication Blockset(通信模块集)
+      - ControlSystemToolbox(控制系统工具箱)
+      - DSP Blockset(数字信号处理模块集)
+      - Fixed-Point Blockset(定点模块集)
+      - NCD Blockset(非线性控制模块集)
+      - Neural Network Blockset(神经网络模块集)
+      - RF Blockset(射频模块集)
+      - Power System Blockset(电力系统模块集)
+      - Real-Time Window Target(实时窗口目标库)
+      - Stateflow(状态流程库)
+ #### 连续模块库
+      - 微分模块（Derivative）：通过计算差分u/t近似计算输入变量的微分
+      - 积分模块（Intehrator）：对输入变量进行积分
+      - 线性状态空间模块（State-Space）：用于实现以下数学方程描述的系统`x = Ax + Bu; y = Cx + Du`
