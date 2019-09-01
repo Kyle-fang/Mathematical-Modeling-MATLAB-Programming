@@ -156,4 +156,5 @@
  #### 连续模块库
       - 微分模块（Derivative）：通过计算差分u/t近似计算输入变量的微分
       - 积分模块（Intehrator）：对输入变量进行积分
-      - 线性状态空间模块（State-Space）：用于实现以下数学方程描述的系统`x = Ax + Bu; y = Cx + Du`
+      - 线性状态空间模块（State-Space）：用于实现以下数学方程描述的系统
+ &emsp;&emsp;&emsp;&emsp; `x = Ax + Bu; y = Cx + Du`
