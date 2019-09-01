@@ -158,3 +158,13 @@
       - 积分模块（Intehrator）：对输入变量进行积分
       - 线性状态空间模块（State-Space）：用于实现以下数学方程描述的系统
  &emsp;&emsp;&emsp;&emsp; `x = Ax + Bu; y = Cx + Du`
+      - 传递函数模块（Transfer Fcn）：用于执行一个线性传递函数
+      - 零极点传递函数模块（Zero-Pole）：用于建立一个预先指定的零点，极点，并用延迟算子s表示的连续
+      - PID控制模块（PID Controller）：进行PID控制
+      - 传输延迟模块（Transport Delay）:用于将输入端的信号按指定的时间延迟后再输入其信号
+      - 可变传输延迟模块（Variable Transport Delay）：用于将输入端的信号进行可变时间的延迟
+      
+#### 离散模块库
+      - 零阶保持器模块（Zero-Order hold）：在一个步长内将输出的值保持在同一个值上
+      - 单位延迟模块（Unit Delay）：将输入信号作单位延迟，并且保持一个采样周期相当于时间算子z-1
+      - 离散时间积分模块（discrete-Time Integrator）:在构造完全离散的系统时，代替连续积分的功能
