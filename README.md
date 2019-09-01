@@ -136,3 +136,9 @@
       - Math Operations(数学运算模块)
       - Nonlinear(非线性模块)
       - Signals&Systems(信号和系统模块)
+      - Sinks(接收器模块)
+      - Sources(输入源模块)
+   ### 实时工作室过渡到系统实现
+      - Simulink软件包中的实时工作室（RTW）可以将Simulink的仿真框图直接转化为C语言代码，从而直接从系统仿真过渡到系统实现
+   ### 状态流模块（Stateflow）
+      - 用户可以在模块中设计基于状态变化的离散时间系统
