@@ -1,0 +1,32 @@
+clear all
+clc
+%一维插值的算法使用%
+%三次样条插值效果最好但时间最长%
+x=0:0.3:3;
+y=(x.^2-4*x+2).*sin(x);
+xi=0:0.01:3;
+yi_nearest=interp1(x,y,xi,'nearest');
+yi_linear=interp1(x,y,xi);
+yi_spine=interp1(x,y,xi,'spine');
+yi_pchip=interp1(x,y,xi,'pchip');
+yi_v5cubic=interp1(x,y,xi,'v5cubic');
+figure;
+hold on;
+subplot(231);
+plot(x,y,'ro');
+title('已知数据点');
+subplot(232);
+plot(x,y,'ro',xi,yi_nearest,'b-');
+title('临近点插值');
+subplot(233);
+plot(x,y,'ro',xi,yi_linear,'b-');
+title('线性插值');
+subplot(234);
+plot(x,y,'ro',xi,yi_spine,'b-');
+title('三次样条插值');
+subplot(235);
+plot(x,y,'ro',xi,yi_pchip,'b-');
+title('分段三次Herite插值');
+subplot(236);
+plot(x,y,'ro',xi,yi_v5cubic,'b-');
+title('三次多项式插值');
